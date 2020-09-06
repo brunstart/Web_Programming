@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Timetable
+    </title>
+    <style>
+        th:first-child{border-radius: 10px 0 0 0;}
+        th:last-child{border-radius: 0 10px 0 0;}
+        tr:nth-child(2n){background-color: grey;}
+        tr:nth-child(2n+1){background-color: black; color:yellow;}
+        th:nth-child(2n){background-color: thistle;}
+        th.class1{color:tomato;}
+        td:hover{color:wheat; background-color: tomato;}
+    </style>
+</head>
+
+<body>
+    <table border='1'>
+        <caption>시간표</caption>
+        <thead>
+            <tr>
+                <th rowspan=2>교시</th>
+                <th colspan=7 class='class1'>요일</th>
+            </tr>
+            <tr>
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+                <th>목</th>
+                <th>금</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1교시</td>
+                <td width='100' align="center" rowspan=3>여행과 문화</td>
+                <td width='100' align="center"></td>
+                <td width='100' align="center"></td>
+                <td width='100' align="center">SW 개발도구</td>
+                <td width='100' align="center"></td>
+            </tr>
+            <tr>
+                <td>2교시</td>
+                <td width='100' align="center"></td>
+                <td width='100' align="center" rowspan=2>생활법률</td>
+                <td width='100' align="center"></td>
+                <td width='100' align="center"></td>
+            </tr>
+            <tr>
+                <td>3교시</td>
+                <td width='100' align="center">SW 개발도구</td>
+                <td width='100' align="center"></td>
+                <td width='100' align="center"></td>
+            </tr>
+            <tr>
+                <td>4교시</td>
+                <td width='100' align="center">생활법률</td>
+                <td width='100' align="center"></td>
+                <td width='100' align="center"></td>
+                <td width='100' align="center"></td>
+                <td width='100' align="center"></td>
+            </tr>
+            <tr>
+                <td>5교시</td>
+                <td width='100' align="center"></td>
+                <td width='100' align="center">꿈-설계 상담</td>
+                <td width='100' align="center"></td>
+                <td width='100' align="center">꿈-설계 상담</td>
+                <td width='100' align="center"></td>
+            </tr>
+                
+        </tbody>
+    </table>
+</body>
+
+</html>
